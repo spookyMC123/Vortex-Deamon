@@ -4,19 +4,13 @@
 Vortex-Deamon is the Deamon for the Vortex-Panel.
 
 ## Installation
-1. Clone the repository:
-`git clone https://github.com/draco-labes/draco-daemon`
+1.clone the repo
+`git clone https://github.com/spookyMC123/Vortex-Deamon.git && cd Vortex-Deamon && npm install`
 
-2. go to panel directory:
-`cd draco-daemon` 
+2. Configure token:
+- https://Vortex-panel.com/node in your token
 
-3. Install dependencies:
-`npm install`
-
-4. Configure DracoDaemon:
-- Get your Panel's access key from the Hydra panel's config.json file and set it as 'remoteKey'. Do the same for the other way, set your DracoDaemon access key and configure it on the Panel.
-
-4. Start the Daemon:
+3. Start the Daemon:
 `node . # or use pm2 to keep it online`
 
 ## Configuration
@@ -29,7 +23,7 @@ The daemon runs as a background service, interfacing with the Draco Panel for op
 Contributions to enhance the functionality or performance of the Draco Daemon are encouraged. Please submit pull requests for any enhancements.
 
 ## License
-(c) 2025 MJ and contributors. This software is licensed under the InfinityForge License.
+(c) 2025 RJ and contributors. This software is licensed under the InfinityForge License.
 
 
 ## Credits
@@ -37,4 +31,4 @@ InfinityForge
 NXIGHT
 Joy
 
-- Thanks ma4z,ether,achul123,privt
+- Thanks NXIGHT,Joy
