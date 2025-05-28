@@ -1,7 +1,7 @@
 
-<h1 align="center">DracoDaemon</h1>
+<h1 align="center">Vortex-Deamon</h1>
 ## Overview
-Draco Daemon is the daemon for the Draco Panel.
+Vortex-Deamon is the Deamon for the Vortex-Panel.
 
 ## Installation
 1. Clone the repository:
@@ -29,12 +29,12 @@ The daemon runs as a background service, interfacing with the Draco Panel for op
 Contributions to enhance the functionality or performance of the Draco Daemon are encouraged. Please submit pull requests for any enhancements.
 
 ## License
-(c) 2024 MJ and contributors. This software is licensed under the MIT License.
+(c) 2025 MJ and contributors. This software is licensed under the InfinityForge License.
 
 
 ## Credits
-SRYDEN
-Skyport
-Hydra-Labes
+InfinityForge
+NXIGHT
+Joy
 
 - Thanks ma4z,ether,achul123,privt
