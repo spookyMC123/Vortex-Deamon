@@ -418,6 +418,6 @@ app.use((err, req, res, next) => {
 const port = config.port;
 setTimeout(function (){
   server.listen(port, () => {
-    log.info('Draco is listening on port ' + port);
+    log.info('Vortex is listening on port ' + port);
   });
 }, 2000);
