@@ -6,14 +6,16 @@ Vortex-Deamon is the Deamon for the Vortex-Panel.
 ## Installation
 1.clone the repo
 ```bash
-git clone https://github.com/spookyMC123/Vortex-Deamon.git && cd Vortex-Deamon && npm install```
+git clone https://github.com/spookyMC123/Vortex-Deamon.git && cd Vortex-Deamon && npm install
+```
 
 2. Configure token:
 - https://Vortex-panel.com/admin/node in your token
 
 3. Start the Daemon:
 ```bash
-node . # or use pm2 to keep it online```
+node . # or use pm2 to keep it online
+```
 
 ## Configuration
 Configuration settings can be adjusted in the `config.json` file. This includes the authentication key for API access.
