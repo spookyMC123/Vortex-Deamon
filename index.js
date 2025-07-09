@@ -313,11 +313,11 @@ function initializeWebSocketServer(server) {
             };
         
             if (!actionMap[action]) {
-                ws.send(`\r\n\u001b[33m[draco] \x1b[0Invalid action: ${action}\r\n`);
+                ws.send(`\r\n\u001b[33m[Vortex-Deamon] \x1b[0Invalid action: ${action}\r\n`);
                 return;
             }
         
-            ws.send(`\r\n\u001b[33m[draco] \x1b[0mWorking on ${action}...\r\n`);
+            ws.send(`\r\n\u001b[33m[Vortex-Deamon] \x1b[0mWorking on ${action}...\r\n`);
         
             try {
                 await actionMap[action]();
@@ -384,7 +384,7 @@ app.get('/', async (req, res) => {
         // Prepare the response object with Docker status
         const response = {
             versionFamily: 1,
-            versionRelease: 'draco ' + config.version,
+            versionRelease: 'Vortex-Deamon ' + config.version,
             online: true,
             remote: config.remote,
             mysql: {
